@@ -1,0 +1,28 @@
+name: ppmii_a2_c1_joelssj
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  url_launcher: ^6.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Aquí se agregan los assets (imágenes, fuentes, etc.)
+  assets:
+    - lib/assets/gokucito.png
+    - lib/assets/goku.png
